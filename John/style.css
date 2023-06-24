@@ -1,0 +1,190 @@
+body
+{
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+header
+{
+  padding-left: 3vw;
+  padding-right: 3vw;
+  background: #DDDDDD;
+  width: 94vw;
+  height: 30px;
+  line-height: 30px;
+}
+
+/* 顏色按鈕 */
+.background
+{
+  width: 57vw;
+  float: left;
+  text-align: center;
+}
+.white
+{
+  width: 5vw;
+  height: 18px;
+  border: 1px solid black;
+  background:#FFFFFF;
+  cursor: pointer;
+}
+.green
+{
+  width: 5vw;
+  height: 18px;
+  border: 1px solid black;
+  background:#F3FDEC;
+  cursor: pointer;
+}
+.blue
+{
+  width: 5vw;
+  height: 18px;
+  border: 1px solid black;
+  background:#E9F4FC;
+  cursor: pointer;
+}
+.gray
+{
+  width: 5vw;
+  height: 18px;
+  border: 1px solid black;
+  background:#dddddd;
+  cursor: pointer;
+}
+.black
+{
+  width: 5vw;
+  height: 18px;
+  border: 1px solid black;
+  background:#2C313C;
+  cursor: pointer;
+}
+
+/* 文字效果 */
+.fontSize
+{
+  width: 37vw;
+  float: right;
+  text-align: center;
+}
+.big,.small
+{
+  width: 5vw;
+  cursor: pointer;
+  text-align: center;
+  padding: 1px;
+}
+
+article
+{
+  float: top;
+  margin: 0px;
+  padding: 3vw;
+  padding-top: 1vw;
+  background: #FFFFFF;
+  width: 94vw;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.story
+{
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.title
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.picZhi img {
+	width: 200px;
+	height: 286px;
+	background-color: #FFF;
+	padding: 2px;
+	border: 1px solid #CCC;
+}
+.picHeng img {
+	width: 286px;
+	height: 200px;
+	background-color: #FFF;
+	padding: 2px;
+	border: 1px solid #CCC;
+}
+
+footer
+{
+  margin: 0vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  height: 25px;
+  background: #DDDDDD;
+}
+
+.lastChapter
+{
+  width: 20vw;
+  height: 30px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-top: 5px;
+  float: left;
+  text-align: center;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+.content
+{
+  width: 20vw;
+  height: 30px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-top: 5px;
+  float: left;
+  text-align: center;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+.nextChapter
+{
+  width: 20vw;
+  height: 30px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-top: 5px;
+  float: left;
+  text-align: center;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .picZhi, .picHeng {
+    padding-left: 30px;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .picZhi, .picHeng {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
