@@ -149,7 +149,9 @@ a:hover {
 	background-color: transparent;
 	padding: 2px;
 }
-
+.pic img {
+	max-width: 90vw;
+}
 footer
 {
   margin: 0vw;
