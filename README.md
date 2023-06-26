@@ -5,6 +5,7 @@
         <div>　　這是半成品。截至2023年6月28日，我還在中華福音神學院學習希臘文。未來可能加上更多字型。</div>
         
         ## 賓語提前粗體字 
+        
         <div>　　有時我們會把句子中想強調的東西提前。例如，為了強調「瞻馬首」的「馬首」，就變成「馬首是瞻」。希臘文也如此，而且希臘文的文法能把句子中任一個字詞提前。但是中文文法能提前的字詞有限，導致文字上無法翻出原文意境，在立體本中用<b>粗體字</b>呈現被提前的字詞。 </div>
         <div class="pic"><img src="Greek1.png" alt="PictureNotFound" loading="lazy">
           <img src="Greek2.png" alt="PictureNotFound" loading="lazy"></div>
