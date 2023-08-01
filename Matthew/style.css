@@ -200,6 +200,12 @@ footer
   cursor: pointer;
 }
 
+/* 本文顏色 */
+.red
+{
+	color: red;
+}
+
 @media screen and (min-width: 1024px) {
   .picZero, .picOne, .picTwo, .picThree, .picFour, .picFive, .picSix, .picSeven, .picEight, .picNine, .picTen {
     padding-left: 30px;
