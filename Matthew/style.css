@@ -201,7 +201,7 @@ footer
 }
 
 /* 本文顏色 */
-a .red
+.red a
 {
 	color: red;
 }
