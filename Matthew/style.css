@@ -205,6 +205,12 @@ footer
 {
 	color: red;
 }
+.red:hover {
+    text-decoration: none;
+}
+.gr:hover {
+    text-decoration: none;
+}
 
 @media screen and (min-width: 1024px) {
   .picZero, .picOne, .picTwo, .picThree, .picFour, .picFive, .picSix, .picSeven, .picEight, .picNine, .picTen {
