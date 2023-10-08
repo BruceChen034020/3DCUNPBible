@@ -149,6 +149,10 @@ ul.list li a {
 	margin: 10px;
 	width: 47.5%;
 }
+.gangMuF {
+	margin: 10px;
+	width: 97.5%;
+}
 
 /*手機*/
 @media screen and (max-width: 1024px) {
