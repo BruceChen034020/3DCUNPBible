@@ -175,6 +175,11 @@ ul.list li a {
 	border: 1px solid #CCC;
 }
 
+.gangMu {
+	margin: 10px;
+	width: 47.5%;
+}
+
 /*手機*/
 @media screen and (max-width: 1024px) {
 	.muLu {
