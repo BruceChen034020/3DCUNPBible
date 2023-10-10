@@ -222,6 +222,11 @@ ul.list li a {
 	.muLu p.jingWen{
 		text-align: right;
 	}
+	
+	.gangMu {
+		margin: 10px;
+		width: 97.5%;
+	}
 }
 /*電腦*/
 @media screen and (min-width: 1024px) {
