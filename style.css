@@ -45,3 +45,7 @@ body{
 .tc {
 	text-align: center;
 }
+
+.wrapper {
+	padding: 5px;
+}
