@@ -1,0 +1,227 @@
+body
+{
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+header
+{
+  padding-left: 3vw;
+  padding-right: 3vw;
+  background: #DDDDDD;
+  width: 94vw;
+  height: 30px;
+  line-height: 30px;
+}
+
+/* 顏色按鈕 */
+.background
+{
+  width: 57vw;
+  float: left;
+  text-align: center;
+}
+.white
+{
+  width: 5vw;
+  height: 18px;
+  border: 1px solid black;
+  background:#FFFFFF;
+  cursor: pointer;
+}
+.green
+{
+  width: 5vw;
+  height: 18px;
+  border: 1px solid black;
+  background:#F3FDEC;
+  cursor: pointer;
+}
+.blue
+{
+  width: 5vw;
+  height: 18px;
+  border: 1px solid black;
+  background:#E9F4FC;
+  cursor: pointer;
+}
+.gray
+{
+  width: 5vw;
+  height: 18px;
+  border: 1px solid black;
+  background:#dddddd;
+  cursor: pointer;
+}
+.black
+{
+  width: 5vw;
+  height: 18px;
+  border: 1px solid black;
+  background:#2C313C;
+  cursor: pointer;
+}
+
+/* 文字效果 */
+.fontSize
+{
+  width: 37vw;
+  float: right;
+  text-align: center;
+}
+.big,.small
+{
+  width: 5vw;
+  cursor: pointer;
+  text-align: center;
+  padding: 1px;
+}
+
+article
+{
+  float: top;
+  margin: 0px;
+  padding: 3vw;
+  padding-top: 1vw;
+  background: #FFFFFF;
+  width: 94vw;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.story
+{
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.title
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 28px;
+}
+
+/*
+0: 1.125
+1.2: 1.58
+3.4.6.7.9.10: 1
+5: 0.4
+8.cover: 1.53
+*/
+.picZero img {
+	width: 200px;
+	height: 225px;
+	background-color: transparent;
+	padding: 2px;
+}
+.picOne img, .picTwo img {
+	width: 200px;
+	height: 316px;
+	background-color: transparent;
+	padding: 2px;
+}
+.picThree img, .picFour img, .picSix img, .picSeven img, .picNine img, .picTen img {
+	width: 200px;
+	height: 200px;
+	background-color: transparent;
+	padding: 2px;
+}
+.picFive img {
+	width: 300px;
+	height: 120px;
+	background-color: transparent;
+	padding: 2px;
+}
+.picEight img {
+	width: 200px;
+	height: 306px;
+	background-color: transparent;
+	padding: 2px;
+}
+.pic img {
+	max-width: 90vw;
+}
+footer
+{
+  margin: 0vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  height: 25px;
+  background: #DDDDDD;
+}
+
+.lastChapter
+{
+  width: 20vw;
+  height: 30px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-top: 5px;
+  float: left;
+  text-align: center;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+.content
+{
+  width: 20vw;
+  height: 30px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-top: 5px;
+  float: left;
+  text-align: center;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+.nextChapter
+{
+  width: 20vw;
+  height: 30px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-top: 5px;
+  float: left;
+  text-align: center;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+
+/* 本文顏色 */
+.red
+{
+	color: red;
+}
+.red:hover {
+    text-decoration: none;
+}
+.gr:hover {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .picZero, .picOne, .picTwo, .picThree, .picFour, .picFive, .picSix, .picSeven, .picEight, .picNine, .picTen {
+    padding-left: 30px;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .picZero, .picOne, .picTwo, .picThree, .picFour, .picFive, .picSix, .picSeven, .picEight, .picNine, .picTen {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
