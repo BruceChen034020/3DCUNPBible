@@ -65,7 +65,7 @@ Date: N/A
 /* Timed Events */
 
 /* Click Events */
-function button1_Clicked() { // click (void)
+function button1_Clicked() { // click 'Convert' (void)
     var s = textBox1.value(); // input (string)
     var o = ""; // output (string)
     var v = ""; // 第幾節 (string)
@@ -73,7 +73,7 @@ function button1_Clicked() { // click (void)
     var st = 1; // 打印經文=1, 打印節號=0 (int)
     var i; // input string index (int)
     for (i = 0; i<s.length; i++) {
-        if (isNumber(s[i])) {
+        if (isNumber(s[i])) { // 節號
             if (st) {
                 v = "";
                 o += "<sup>";
@@ -81,10 +81,10 @@ function button1_Clicked() { // click (void)
             v += s[i];
             o += s[i];
             st = 0;
-        }else if (s[i] == '/') {
+        }else if (s[i] == '/') { // 子句分隔符號
             cl++;
             o += "<sup>" + v + String.fromCharCode(cl) + "</sup>";
-        } else {
+        } else { // 經文
             if (!st) {
                 cl = 'a'.charCodeAt(0);
                 o += String.fromCharCode(cl) + "</sup>";
