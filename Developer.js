@@ -51,7 +51,7 @@ function draw() {
 
 /* User defined functions */
 function isNumber(/*char*/ c) { // whether a char is a number (bool)
-    if ('0' < c && c <= '9') {
+    if ('0' <= c && c <= '9') {
         return true;
     }
     return false;
